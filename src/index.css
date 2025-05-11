@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   place-items: center;
   height: max-content;
-  width: 500px;
+  width: 400px;
 }
 
 h1 {
@@ -55,6 +55,23 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+select {
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  width: 150px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 button {
